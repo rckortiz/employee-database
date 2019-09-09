@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import Employees from './components/Employees'
+import EmployeeDetails from './components/addEmployee'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <Employees />
   }
 }
 
